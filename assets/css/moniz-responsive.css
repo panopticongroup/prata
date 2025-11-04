@@ -1389,7 +1389,7 @@
 /////////
 --------------------------------------------------------------*/
 
-@media only screen and (min-width: 1360px) and (max-width: 1790px) {
+@media only screen and (min-width: 1500px) and (max-width: 1790px) {
     .main-menu-wrapper__logo {
         margin-right: 40px;
     }
@@ -1398,8 +1398,57 @@
         width: 50%;
     }
 
+}
 
+@media only screen and (min-width: 1448px) and (max-width: 1500px) {
+    .main-menu-wrapper__logo {
+        margin-right: 0px;
+    }
 
+    .main-menu-wrapper__main-menu {
+        width: 50%;
+    }
+		
+		.main-menu-wrapper__social {
+				padding-left: 30px;
+		}
+
+}
+
+@media only screen and (min-width: 1382px) and (max-width: 1448px) {
+    .main-menu-wrapper__logo {
+        margin-right: 0px;
+    }
+
+    .main-menu-wrapper__main-menu {
+        width: 50%;
+    }
+		
+		.main-menu-wrapper__social {
+				padding-left: 30px;
+		}
+
+		.main-menu .main-menu__list > li + li, .stricky-header .main-menu__list > li + li {
+				margin-left: 35px;
+		}
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1382px) {
+    .main-menu-wrapper__logo {
+        margin-right: 0px;
+    }
+
+    .main-menu-wrapper__main-menu {
+        width: 50%;
+    }
+		
+		.main-menu-wrapper__social {
+				padding-left: 30px;
+		}
+
+		.main-menu .main-menu__list > li + li, .stricky-header .main-menu__list > li + li {
+				margin-left: 28px;
+		}
 }
 
 
